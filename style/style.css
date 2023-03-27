@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-block{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://glazexpert.ru/wp-content/uploads/8/0/8/8084b02d73da96feef3d53b009c42f02.jpg:large');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+.nav{
+    height: 12vh;
+}
+
+.logo{
+    height: inherit;
+    width: 30%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar{
+    min-height: 12vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin: 0;
+    float: left;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: aqua;
+}
+
+.top-block-icon{
+    height: 12vh;
+    width: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.top-block-icon:hover{
+    color: aqua;
+}
+
+.top-block-content{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-block-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.top-block-content-up{
+    font-size: 60px;
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+.top-block-content-down{
+    color: white;
+    float: left;
+    font-size: 24px;
+}
+
+.bottom-block{
+    height: 100vh;
+    width: 100%;
+}
+
+.bottom-middle-block{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+
+.bottom-middle-block-left{
+    height: 250px;
+    width: 350px;
+    background-color: aqua;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.bottom-middle-block-center{
+    height: 300px;
+    width: 350px;
+    background-color: blueviolet;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.bottom-middle-block-right{
+    height: 250px;
+    width: 350px;
+    background-color: aqua;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.bottom-middle-block-text-up{
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.icon{
+    color: white;
+}
+
+.bottom-down-block{
+    height: 50vh;
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bottom-down-block-left{
+    width: 40%;
+    height: 50vh;
+    float: left;
+}
+
+.bottom-down-block-right{
+    width: 40%;
+    height: 50vh;
+    float: left;
+    background-image: url('https://i2.wp.com/93b00a24bd188d49d428-5353a8a2802c90717395ac989c1a694a.r74.cf1.rackcdn.com/wp-content/uploads/sites/3/image17.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom-content-text-middle{
+    font-size: 60px;
+    font-weight: 200;
+    opacity: 0.85;
+    margin-bottom: 30px;
+}
+
+.bottom-content-text-up{
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(15, 131, 167);
+}
+
+.bottom-content-text-down{
+    opacity: 0.7;
+}
+
+.button{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 30px;
+}
+
+.button:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
